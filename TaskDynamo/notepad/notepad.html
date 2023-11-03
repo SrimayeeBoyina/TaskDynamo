@@ -1,0 +1,36 @@
+<html>
+<head>
+<link rel='stylesheet' href='notepad.css' />
+</head>
+<body>
+
+<div class="main">
+<div class="main-container">
+
+<div class="header">
+<input type="text" class="txtHeader" id="txtHeader" placeholder="Enter title here"/>
+&nbsp;
+</div>
+
+<div class="content">
+<textarea class="txtContent" id="txtContent"></textarea>
+</div>
+
+<div class="options">
+<center>
+    <button onclick="addCard()" class="btn btn-add">ADD</button>
+<button onclick="changeStyle('b')" class="btn1"><b>B</b></button>
+<button onclick="changeStyle('i')" class="btn1"><i>i</i></button>
+<button onclick="changeStyle('u')" class="btn1">u</button>
+<button onclick="changeStyle('n')" class="btn1">n</button>
+</center>
+</div>
+<div class="card-container">
+    <!-- New cards will be added here -->
+</div>
+</div>
+</div>
+</div>
+</body>
+<script src='notepad.js' ></script>
+</html>

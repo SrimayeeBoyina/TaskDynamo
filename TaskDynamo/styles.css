@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333; /* Dark gray background for the header */
+    color: #fff;
+    padding: 20px;
+}
+
+.task-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+
+.task-card h2 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.task-card img {
+    max-width: 100%;
+    height: auto;
+}
+
+.task-card button {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+
+.task-card img {
+    width: 200px; /* Set the desired width */
+    height: 200px; /* Set the desired height */
+    object-fit: cover; /* Maintain aspect ratio and fill the container */
+}
+
+.task-card {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+    transition: transform 0.3s ease; /* Add a smooth transition for the transform property */
+}
+
+.task-card:hover {
+    transform: scale(1.05); /* Enlarge the card when hovering */
+}
